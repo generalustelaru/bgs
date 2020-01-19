@@ -1,0 +1,42 @@
+
+<p>First things first. I’m in love with the concept of Call to Adventure. The premise given is that you take control of a talented youth – a gifted teenager with a dash of idealism, who’s determined to carve his or her destiny in a medieval high fantasy realm. I must assert, if you’re into fantasy roleplaying, or if you enjoy the classic Once Upon a Time and other similar storytelling games; you will undoubtedly find something to chew here.</p>
+
+<p>The visual representations on the tarot-sized game cards, as well as every game mechanism and rule, are so ripe for crafting a meaningful narrative, that you could easily play a session of Call to Adventure even only to extract a character’s background, or maybe the plot for your next RPG session. I’m not kidding! Just make sure you take notes as you play.</p>
+
+<p>Mechanically, Call to Adventure is a not-so-complex tableau3 builder. It is very similar in basic design to Marc André’s hit – Splendor. You gather weaker cards that enable you to obtain better ones, and so on. However, unlike Splendor’s limited pool of poker chip currency, Call to Adventure uses a couple dozen of non-hoard-able runes which, instead, add a dash of uncertainty to collecting cards in the form of ‘rune-casting.’</p>
+
+<p>As the game is focused on a fantasy adventure, the resources are your hero’s stats, which appear as rune symbols on the cards you collect. There are six types of rune icons, representing the usual set of Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Whenever you attempt a Challenge, meaning you’re trying to collect a card that’s on display; you will have to choose between one of two of its paths and then form a pool of rune-dice. The pool is composed of the three’ basic runes,’ and all the colored runes in your tableau that fit the challenge requirements. You throw the bones and try to match the card’s difficulty rating. If you succeed, you take the card and place it under your existing cards so that the chosen path remains visible. If not, you discard it and get an experience point. That’s the core gameplay loop in a nutshell.</p>
+
+Challenge and Dice
+
+<p>At set-up, players draw two random cards from three distinct decks: Origin, Motivation, and Destiny. Choosing one of each, they will determine their characters’ starting runes, unique abilities, and scoring options.</p>
+
+<p>During the game, you will collect Story cards, which give you extra runes, the most valuable of cards also granting VP and story icons. The victory points in Call to Adventure come from multiple sources, but they generally fit within two categories: Triumph and Tragedy. The amount of each that you have can influence your current abilities and even grant or cut access to certain Story cards, but at the end of the game they become generic VP and are summed up along with with the points from remaining experience and story icons.</p>
+
+<p>However, it’s not just runes and points that you get from Story Cards. There are also, what we generally call: ‘actions cards.’ These come up as rewards from the Story Cards themselves or as bonus results from rune-casting.</p>
+
+Player Tableau
+
+<p>These too come in two flavors. Hero Cards improve rune-casting chances, give additional rewards, and increase your Morality. In contrast, Antihero Cards decrease difficulty, they let you capitalize on opponents’ failures, and even let you throw some ‘arrows’ their way.</p>
+
+<p>You track your hero’s Morality on your player tableau. Your final moral standing contributes to your score. Of course, victory-wise, high morality is better than a low or in between one, but that also comes with a limitation during the game – you can only play Hero Cards. Conversely, if your morality sinks too low, the Antihero Cards are the only ones that you can use. Keeping Morality in balance lets you play either type, but it won’t count for a lot in the end.</p>
+
+<p>Here’s an interesting aspect! You won’t always be prepared to collect the best story cards that fit your goals. That is true at least during the first half of the game. That’s why, before casting, you can add in Dark Runes to your pool. These are just as powerful as your regular runes, but they’re always available for use on a challenge. However, they come at the cost of Experience and are prone to chip away at your moral fiber, if you get my drift. Moreover, since the Antihero Cards give fewer opportunities for moral redemption, players who indulge in dark rune-casting will often find themselves unable to return to the light. Isn’t that deliciously thematic? 🙂</p>
+
+Corruption and Dark Runes
+
+<p>As a gameplay experience, one session of Call to Adventure offers about an hour of tactical play, with at least nine highly variable decision forks in the hero’s journey. You’re always on a lookout for cards that gel with your Destiny, that complete icon sets, or that improve your arsenal. You’re also continually balancing the factors of risk and reward by using abilities, playing Hero/Antihero cards and adding in Dark Runes when needed. There’s also a decent amount of player interaction, which can get very competitive, especially if players keep track of each other’s capabilities and the revealed Story Cards.</p>
+
+<p>Call to Adventure feels balanced and is equally enjoyable with 2,3, and 4 players respectively. The variable player count doesn’t modify gameplay in any way. I have to mention that there is a solo-play variant that also opens up to semi-cooperative play. In it, all players are trying to prevent a Villain from winning, at least until everyone gets a chance to challenge and defeat him. This variant can be a welcomed change of pace, where players can coordinate their approach, much like in any cooperative game.</p>
+
+<p>What seems off with the gameplay, however, is that sometimes challenges seem to be too easy. It’s not rare that I overshoot a challenge-threshold by a long shot, even without using dark runes. This issue creeps up more often than not in the late game, and that’s a bummer. I would have liked the opposite to be true. Stakes need to be high, and tension needs to build up when you’re confronting your nemesis, not when you’re sparing with your swordmaster.</p>
+
+Game End
+
+<p>The component quality is on a spectrum. Without a doubt, the custom throwable runes are the absolute stars of the game, but the experience tokens look and feel somewhat cheap. The cardstock is thick, making sleeving purely optional, as you only shuffle each deck once per session, and then the tarot-sized cards are never held in hand. However, the Hero/Antihero cards are of an atypical size, and players DO keep them in their hand.</p>
+
+<p>But my real complaint with Call to Adventure is the ruleset. Although the core rules are explained clearly, and accompanied by examples, the rulebook fails to cover card iconography, leaving you to guess on how to interpret specific icons. Unfortunately, the problem gets exacerbated due to the equally vague description of what constitutes a Story. The two pages of FAQ do clear-up some issues, but out of the box, you should make sure that you go over all of the cards and establish a couple of house rules before bringing the game to the table. As the game is very fresh, Brotherwise Games is actively working to clear up any confusions, and it seems we already have a living rulebook online. So these problems will eventually be sorted out.</p>
+
+<p>Putting that aside, I rank the replay-value of Call to Adventure as “decent.” I predict maybe twenty-five to thirty plays before you get bored of the cards and pull off all of the combos.</p>
+
+<p>My final recommendation would be to play it once or twice before you decide to buy it. As a tableau building light tactical game, it has its issues, but if you enjoy evocative artwork and are a sucker for unique components, then I guess you shouldn’t pass this one up. At this time Brotherwise Games is set to release two expansions, each featuring themes of literary fantasy fiction novels, namely Patrick Rothfuss’ Name of the Wind and Brandon Sanderson’s Stormlight. I can’t tell if these additions can prolong the game’s life, but they will probably add a layer of game customization and could be extra-enjoyable if you’re a fan of the novels.</p>

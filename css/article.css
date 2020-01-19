@@ -1,0 +1,57 @@
+
+main{
+  width: 60%;
+  height:auto;
+  padding-left: 5px;
+  overflow:auto; //NEW!
+}
+
+aside{
+//width: auto;
+}
+
+.article{
+  width: 80%;
+  height: auto;
+  padding-bottom: 60px;
+  float: right;
+  margin-top: 30px;
+  background-color: white;
+  font-size: 1.3em;
+  //border-radius: 0px 30px 0px 0px;
+
+}
+.article h1{
+  margin: 40px 30px;
+}
+.author{
+  height: 30px;
+  margin-left: 30px;
+}
+.author > *{
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.avatar{
+  height:100%;
+}
+
+.articleImage{
+  box-sizing: border-box;
+  width: 95%;
+  margin-top: 30px;
+  margin-left: 25px;
+}
+
+.article p{
+  margin-top: 1em;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: justify;
+}
+.articleRightPanel {
+  //width: 40%;
+}
+.featurette{
+  margin-left: 5%;
+}

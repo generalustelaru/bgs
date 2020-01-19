@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bottled Gaming - Home</title>
+    <link rel="shortcut icon" href="resource/horned-meeple.png"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style media="screen">
+    @font-face {
+      font-family: 'calistoga';
+      src: url('fonts/Calistoga/Calistoga-Regular.ttf');
+    }
+    @font-face {
+      font-family: 'garamond';
+      src: url('fonts/EB_Garamond/EBGaramond-VariableFont:wght.ttf');
+    }
+    </style>
+  </head>
+  <body style="font-family: 'garamond'">
+    <header style="font-family: 'calistoga'"><!-- Header -->
+      <img src="resource/antlered-meeple-juice.png" alt="Bottled Gaming Logo">
+      <h1>bottled gaming</h1>
+      <div class="headerBox">
+        <div class="headerQuote">
+          "Play is best preceded by a decently-sized shot of JaegerMei&szligter." <br>- said No One Ever, but it doesn't sound at all bad.
+        </div>
+      </div>
+    </header>
+    <div class="menu"><!-- Navigation Menu -->
+      <nav>
+        <a href="index.html"><!-- HOME -->
+          <div onselectstart="return false" class="button">
+            <div class="home">
+              home
+            </div>
+            <img src="resource/home-icon-theme.png" alt="Home">
+          </div>
+        </a>
+        <a href="news.html"><!-- News -->
+          <div class="button">
+            news
+          </div>
+        </a>
+        <a href="reviews.html"><!-- Reviews -->
+          <div class="button">
+            reviews
+          </div>
+        </a>
+        <a href="blog.html"><!-- Blog -->
+          <div class="button">
+            blog
+          </div>
+        </a>
+        <a href="about.html"><!-- About -->
+          <div class="button">
+            about
+          </div>
+        </a>
+      </nav>
+    </div>
+    <main>
+
+      <a class='featured object' href="call-to-adventure-review.html" style='background-image: url(articles/call-to-adventure/call-to-adventure-review-featured-667x500.jpg);'><!-- Featured Article -->
+        <div class="featureDescription">
+          <h2>A Hero's Journey in Half the Runtime</h2>
+          <p>As the game is focused on a fantasy adventure, the resources are your hero’s stats, which appear as rune symbols on the cards you collect. There are six types of rune icons, representing the usual set of Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Whenever you attempt a Challenge, meaning you’re trying to collect a card that’s on display; you will have to choose between one of two of its paths and then form a pool of rune-dice. [...] &nbsp<fauxlink>Read more.</fauxlink></p>
+        </div>
+      </a>
+
+      <a class="featurette object" href="colonial-europes-empires-overseas-review.html" style='background-image: url(articles/colonial-europes-empires-overseas/colonial-europes-empires-overseas-board-end-game.jpg)' onmouseover="blurbUp(0)" onmouseout="blurbDown(0)">
+        <div id="test" class="description">
+          <h2>The Overhauled Colonial Experience</h2>
+          <p>In a game that is set to recreate the challenges of the age of exploration, throwing dice to determine whether you get VP or not is beyond ludicrous; Why would a player ever engage in the lengthy process of colonizing China when a free dice-roll can yield the same reward?! [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+        </div>
+      </a>
+      <a
+        class="featurette object"
+        href="articleTemplatePage.html"
+        onmouseover="blurbUp(1)"
+        onmouseout="setTimeout(blurbDown(1), 1000)"
+      >
+        <div class="description" >
+          <h2>Lorem Ipsum</h2>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+        </div>
+      </a>
+      <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(2)" onmouseout="setTimeout(blurbDown(2), 1000)">
+        <div class="description">
+          <h2>Maecenas suscipit</h2>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+        </div>
+      </a>
+      <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(3)" onmouseout="setTimeout(blurbDown(3), 1000)">
+        <div class="description">
+          <h2>Dolor Sic</h2>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+        </div>
+      </a>
+      <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(4)" onmouseout="setTimeout(blurbDown(4), 1000)">
+        <div class="description">
+          <h2>Mauris tortor enim</h2>
+          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+        </div>
+      </a>
+    </main>
+    <footer>
+      Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
+    </footer>
+    <script src="scripts/transitions.js">
+
+    </script>
+  </body>
+</html>

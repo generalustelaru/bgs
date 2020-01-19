@@ -1,0 +1,63 @@
+I'm glad that it turned out this way - An overhauled Colonial review
+
+<p>Colonial is a troubled project. The First Edition had a fair amount of shortcomings. The Second Edition made things better, especially by making loans work as they should. The community seemed to embrace the Second Edition as a significant improvement. However, the main issues that I had with it had not been resolved. Luckily though, I have recently made a final breakthrough, which, in my opinion, turns Colonial into what it should have been from the beginning.</p>
+
+<p>Colonial: Europe's Empires Overseas is an atypical 4x strategy game that aims to recreate some four hundred years of history, beginning from the Renaissance period and culminating around the industrial revolution, when colonialism had reached its peak, and the European Empires started to compete on very different playing fields.</p>
+
+<p>As I see it, Colonial's main selling point is the way in which it treats this complex subject with a minimum of game components and rules. Players use colored wooden disks for virtually everything they do. The individual nation boards have spaces for Treasury, Merchant Fleets, and Naval Forces, all of which have very different uses. On the game board, the discs determine control and army size, they mark technological advancements and diplomatic relations, as well as represent goods and individual credit loans.</p>
+
+Colonial - Nation board close-up
+
+<p>The game begins humbly, with nations having their meager navies, modest treasuries and a couple of <oyVey>merchant fleets</oyVey> each, ready to make a profit.</p>
+
+<p>During every game round, players will select, in secret, five of the twelve available actions. Then, one by one, players reveal these actions and resolve them as expected, or to the surprise of some, sometimes including their own.</p>
+
+<p>The Explorer is probably the most critical action you can do in Colonial. When players explore, they roll ten custom dice, which have two success sides and four blank sides. Depending on the result, they may succeed at exploring a chosen territory and gain a Prestige Point in the process. Then they may gain control of one of the available resources there.</p>
+
+<p>Gaining ten Prestige points is how you win in Colonial. However, exploration is usually not enough. To mitigate the luck of the roll, and to protect what you've earned, you will have to establish a strong navy, which, in turn, you can only afford if you employ some economic strategy.</p>
+
+<p>Besides doing favors for money, there are five avenues in which you can fill your treasury in Colonial, the basis of which being the resources that players take hold in the explored world.</p>
+
+Colonial game board - Australia
+<p>By using their merchant fleets, players may ship these resources to the market, creating stocks ready to be sold. A staple of gameplay in Colonial is player-negotiation. Most of the twelve actions, allow the players to interact at various levels. In this case, several players can rely on a single player's large merchant fleet, to get their goods to the market, and make an immediate profit.</p>
+
+<p>In turn, nations that have strong economic influence in Europe, or hold strong colonies, can sell these goods to the domestic market, making a profit for every player involved.</p>
+
+<p>Speaking of which, establishing a colony is the best way of ensuring your control over resources, as having strict colonial rule over the territory shuts down foreign immigration. However, the more populous a region is, the longer it takes to establish dominion. Once you've achieved it though, you are awarded a Prestige point and also get to pillage the natives for a quick boost to your coffers, gaining their eternal "sympathy."</p>
+
+<p>Another way to keep up with your expenses is to extort nations that have ignored the military aspect. Wars in Colonial are risky and often very crippling, but generally speaking, a bigger navy will destroy a weaker one, and also sink some unaffiliated merchants in the process. As the wars end with the loser transferring a Prestige point to the winner, you can see why having a strong military integrates perfectly into Colonial's economic system.</p>
+
+<p>Finally, for those who are struggling, there's always the credit option. Nations can survive and even thrive on bank loans alone. If no other nation is willing to invest in your exploits, rest assured that your court financier is more than happy to provide you with the amount you need, but only up to your credit score.</p>
+
+Colonial board close-up, The Market
+
+<p>However, in Colonial, you can't achieve greatness through financial slavery. A player cannot win the game until he pays off all of his nation's debt. The longer you delay this, the harder it becomes, as interest rates start piling up and can eventually suffocate your chance of winning.</p>
+
+<p>You can see why I adore the theme of Colonial. Yeah, sure, there are some unsavory aspects to deal with, such as the slavery theme, complete with rules for triangular trade, the suppression of native populations, the use of Jesuit missions to brainwash locals, and the subversive manipulation of local leaders for political and economic gains. However, we need to give some credit to our favorite tribe. If it weren't for them, we wouldn't have had the chance to bring this rough gem to the table.</p>
+
+<p>The reasons for why Colonial did not rise in ratings, is in my opinion, the misfortune of not having been tested enough. By the time the Second Edition came about, the judgment had been cast, and the "Cult of the New" followers were already focusing on something else.</p>
+
+<p>The programmable action selection system requires some forward thinking, but not so much as to turn the game into a crawl, as I've experienced with Shogun/Wallenstein. The use of multi-purpose player disks is neat. I suspect that the author, Christophe Pont, did draw some inspiration from Endeavor, which was released just two years prior.</p>
+
+<p>However, the final product is too prone to favor the luck of the roll, where the dice rolls are too few to even out. This mechanism is in stark contrast to the deterministic, multi-layered economic system, but which is ultimately too slow against a rush of successful explorations.</p>
+
+<p>In a game that is set to recreate the challenges of Exploration, throwing a bunch of dice to determine whether you get a Prestige point or not is beyond ludicrous! Comparing that to the effort required for colonization, which virtually yields the same reward, it makes Colonial as balanced as an overweight walrus trying to ride a mono-bike.</p>
+
+<p>This contrast makes Colonial half devoid of meaningful choices, despite the high diversity of actions, and the potential for a highbrow diplomatic game. It makes for a bittersweet experience, and not something to bring out to the table very often.</p>
+
+<p>As far as the Second Edition goes, I would only play it with theme geeks, and even then, I would make sure to explain the shortcomings, as to avoid frustration and eventual disappointment.</p>
+
+Colonial - game end snapshot
+
+
+<p>However, the game's premise has intrigued me ever since I discovered it, some six years ago. Already being a fan of Endeavor, I wanted something less abstracted, and Colonial seemed to be the perfect fit. I was well aware of the shortcomings of both, the first and second editions, but I always felt that the whole package had the potential to resemble an above than average title.</p>
+
+<p>The aspect that bothered me most was not the first edition's Privateers, nor the set of choices during colony establishment, but, as you might expect, the friggin' random-reward-for-a-dice-roll-exploration-system! Why would a player ever think of colonizing China when simply rolling the dice can yield the same reward?! This is the reason for why I resorted to staring at the beautiful board for the longest time, and not daring to bring it out in public.</p>
+
+<p>But, through a miracle, all of this changed after checking out a variant that I found on BoardGameGeek. This rule modification turns exploration on its head. The creator (username: Gubban) proposes that instead of rolling ten dice to meet a threshold, you should pay Treasury to match it. Then, instead of getting a Prestige, you would gain an Exploration Token.</p>
+
+<p>Now, Gubban's original concept resembles a race on each continent to gain the lead in tokens, but that idea includes acquiring perpetually contested Prestige points, which, unfortunately, doesn't gel with how wars work in Colonial.</p>
+
+<p>Hence I decided to simplify it by removing the majority aspect and making all exploration tokens count as one-third of a Prestige Point, while each territory is set-up with a number of tokens and Prestige according to their exploration ratings (1 token for rating-3, 2 tokens for 4 and so on). Furthermore, I equated colony point reward with the number of native symbols present. In truth, one could easily make almost any modification, including changing actions on cards, or even the card play itself, but I don't think Colonial is in such a dire condition.</p>
+
+<p>I'm telling you, with six players, we saw early incursions in Africa, early colonies established in India and China, and a proper delayed discovery of America. In a sentence, this modified variant makes Colonial (2nd Ed.) worthy of being one of the best games about colonialism out there. I now have the confidence to bring it out at any medium-heavy game night.</p>
