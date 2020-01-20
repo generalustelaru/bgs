@@ -3,6 +3,11 @@
   padding: 0px;
   margin: 0px;
 }
+::selection {
+  background: #2C1000;
+  color: #D2A11B;
+  //background: #2C1000;
+}
 title{
   display: none;
 }
