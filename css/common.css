@@ -4,8 +4,8 @@
   margin: 0px;
 }
 ::selection {
-  background: #2C1000;
-  color: #D2A11B;
+  background: #D2A11B;
+  color: white;
   //background: #2C1000;
 }
 title{
@@ -14,7 +14,8 @@ title{
 body{
   z-index: 1;
   font-size: 16px;
-  background-image: url(../resource/big-table-in-cellar-adjusted.jpg);
+  background-color: tan;
+  //background-image: url(../resource/big-table-in-cellar-adjusted.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
@@ -84,6 +85,7 @@ header h1{
 .menu{
   height: 52px;
   width: 100%;
+  //background-color: #765D20;
   background-color: #2C1000;
   border-top: solid #672800 3px;
   position: sticky;
