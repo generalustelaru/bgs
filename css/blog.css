@@ -1,0 +1,76 @@
+.latest{
+  box-sizing: border-box;
+  width: 165px;
+  height: 30px;
+  background-color: #D2A11B;
+  float: right;
+  font-size: 1.2em;
+  padding: 3px 6px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: center;
+
+  position: relative;
+  left: 250px;
+  top:10px;
+  transform: rotate(30deg);
+
+  animation-name: latest;
+  animation-duration: 2s;
+  //animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes latest {
+  0%{
+    width: 165px;
+    height: 30px;
+    font-size: 1.2em;
+    padding: 3px 6px;
+  }
+  20%{
+    width: 210px;
+    height: 40px;
+    font-size: 1.55em;
+    padding: 5px 1px;
+    //font-weight: bold;
+  }
+  40%{
+    width: 165px;
+    height: 30px;
+    font-size: 1.2em;
+    padding: 3px 6px;
+  }
+}
+.blog{
+  box-sizing: border-box;
+  width: 1000px;
+  height: 200px;
+  margin-left: 17.25%;
+  margin-right: auto;
+  margin-top: 30px;
+
+  background-image: url(../resource/default-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+.blog .date{
+  margin-left: 18px;
+}
+.blog .imageThumbnail{
+  box-sizing: border-box;
+  float: right;
+  height: inherit;
+  width: 200px;
+}
+.blog .imageThumbnail img{
+  max-height: 100%;
+}
+.blogDescription{
+  box-sizing: border-box;
+  position: absolute;
+  float:right;
+  width: 800px;
+  height: 200px;
+  bottom: 0px;
+  background-color: white;

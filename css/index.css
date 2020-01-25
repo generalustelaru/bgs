@@ -9,8 +9,6 @@ aside{
   //width: auto;
 }
 .featured{
-  //display: block;
-  //position: relative;
   box-sizing: border-box;
   width: 1000px;
   height: 400px;
@@ -18,7 +16,7 @@ aside{
   margin-right: auto;
   margin-top: 30px;
 
-  background-image: url(../articles/call-to-adventure/call-to-adventure-review-featured-667x500.jpg);
+  background-image: url(../resource/default-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
@@ -30,7 +28,6 @@ aside{
   height: 200px;
   bottom: 0px;
   background-color: white;
-  //white-space: nowrap;
 }
 .featurette:nth-child(2n){
   margin-left: 17.25%;
