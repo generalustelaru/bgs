@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Template Page - Bottled Gaming</title>
+    <title>Contact - Bottled Gaming</title>
     <link rel="shortcut icon" href="resource/horned-meeple.png"/>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/contact.css">
     <style media="screen">
     @font-face {
       font-family: 'calistoga';
@@ -54,7 +54,7 @@
             blog
           </div>
         </a>
-        <a href="about.html"><!-- About -->
+        <a href="contact.html"><!-- About -->
           <div class="button">
             contact
           </div>
@@ -62,10 +62,30 @@
       </nav>
     </div>
     <main>
-      Hello World!
+      <div class="contactForm">
+        <form class="" action="validations.js" method="post">
+          <h2>
+            Hello there,
+          </h2>
+          <p>
+            We hope you're enjoying our content so far. If you have any inquiries or if you want to join us as a contributor, please leave us a message. We'll get back to you in a jippy!
+          </p>
+          <br>
+          <input type="email" id="email" name="" value="" placeholder="E-mail address"><span id="emailError"></span>
+          <textarea name="name" rows="10" cols="69" placeholder="Your message."></textarea>
+          <p>I would also like to be bothered by e-mail for:</p>
+          <input id="news" type="checkbox"> Flash News <br>
+          <input id="digest" type="checkbox"> Weekly Digest <br>
+          <button type="button" name="button" onclick="contactForm()">Send</button>
+
+        </form>
+      </div>
     </main>
     <footer>
       Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
     </footer>
+    <script src="scripts/validations.js">
+
+    </script>
   </body>
 </html>

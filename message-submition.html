@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Template Page - Bottled Gaming</title>
+    <title>Message Submitted! - Bottled Gaming</title>
     <link rel="shortcut icon" href="resource/horned-meeple.png"/>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/contact.css">
     <style media="screen">
     @font-face {
       font-family: 'calistoga';
@@ -62,11 +62,41 @@
       </nav>
     </div>
     <main>
-      
+      <div class="contactForm">
+        <form class="" action="validations.js" method="post">
+          <h2 id="response">
+            Thank you for contacting us!
+          </h2>
+          <br>
+          <br>
+          <p>
+            We will get back to you at the e-mail adress you have provided.
+          </p>
+
+        </form>
+      </div>
     </main>
     <footer>
       Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
     </footer>
+    <script src="scripts/validations.js">
 
+    </script>
+    <script type="text/javascript">
+      var hereNews = localStorage.getItem("news");
+      var hereDigest = localStorage.getItem("digest");
+      (
+        function(){
+          console.log(hereNews);
+          console.log(hereDigest);
+          if (hereNews == 'true' || hereDigest == 'true') {
+          document.getElementById('response').innerHTML = "Thanks for your message and for subscribing!"
+          localStorage.setItem("news", '');
+          localStorage.setItem("digest", '');
+          }
+        }
+        ()
+      )
+    </script>
   </body>
 </html>

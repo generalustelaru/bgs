@@ -15,7 +15,7 @@ body{
   z-index: 1;
   font-size: 16px;
   background-color: tan;
-  //background-image: url(../resource/big-table-in-cellar-adjusted.jpg);
+  background-image: url(../resource/plaid-1024x768.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
@@ -241,6 +241,7 @@ ul li{
 main{
   box-sizing: border-box;
   float: left;
+  z-index: 1;
 }
 aside{
   float: left;
