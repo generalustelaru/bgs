@@ -139,6 +139,37 @@ nav .button img{
   left: 2px;
   cursor: pointer;
 }
+button {
+    display: inline-block;
+    border: none;
+    padding: .5rem 1rem;
+    margin: 0;
+    text-decoration: none;
+    background: #2C1000;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #D2A11B;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
 .featurette{
   position: relative;
   box-sizing: border-box;
@@ -154,6 +185,22 @@ nav .button img{
   background-size: cover;
   background-position: bottom;
   overflow: hidden;
+}
+#subscription{
+  background-color:white;
+  float:left;
+  margin-top: 30px;
+  width:490px;
+  height: 200px;
+  
+}
+#email{
+  margin-left: 20px;
+  height: 2em;
+  width: 310px;
+}
+#emailError{
+  color: red;
 }
 .description{
   box-sizing: border-box;

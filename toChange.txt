@@ -1,5 +1,0 @@
-DONE H1 trebuie transformat în link către Home.
-Link-urile <a> de tip .object afișază textul în albastru. Acestea trebuie păstrate la culoarea black.
-Trebuie adăugate butoane de social media (fără funcționalitate în prealabil)
-Trebuie populate secțiunile Revews, News și Blog.
-About trebuie modificat în Contact și populat cu un formular de contact.

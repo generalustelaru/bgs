@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+<link rel="icon" href="resource/bottled-gaming-logo.png" type="image/x-icon">
     <title>Article Template - Bottled Gaming</title>
     <link rel="shortcut icon" href="resource/horned-meeple.png"/>
     <link rel="stylesheet" href="css/common.css">
@@ -81,7 +82,15 @@
         <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean felis mauris, sagittis non nulla et, rutrum tincidunt dolor. Aenean et neque quis nulla imperdiet porttitor. Morbi eget massa posuere, sodales nisl egestas, auctor nisi. Donec bibendum luctus luctus. Integer eget felis ac urna tincidunt ultricies. Maecenas urna urna, malesuada sed molestie ut, volutpat sed eros. Integer commodo quam et nisi faucibus posuere. Donec eget imperdiet metus, vitae congue arcu. Donec euismod enim a nibh faucibus, id cursus tellus egestas. Nunc eget massa at ligula pellentesque elementum. Nunc at nibh magna. Mauris ac nisi id risus mollis ultrices at non ex. Duis gravida, magna id tempor fringilla, justo elit pulvinar neque, at faucibus diam erat eget purus. Sed accumsan tempor lacus nec molestie. </p>
       </div>
     </main>
-    <aside class="">
+    <aside>
+      <div class="object" id="subscription" >
+        <h2>Sign-up for The Bottled Gaming Digest!</h2>
+        <p>Get an e-mail digest on Mondays. You will also be notified of future product <em>giveaways</em>. Unsubscribe at any time. </p>
+        <br>
+        <input id="email" type="email" name="" value="" placeholder="Your e-mail address" >
+        <button type="button" name="button" onclick="subscribe()">I want in!</button>
+        <span id="emailError"></span>
+      </div>
       <a class='featurette object' href="call-to-adventure-review.html" style='background-image: url(articles/call-to-adventure/call-to-adventure-review-featured-667x500.jpg);' onmouseover="blurbUp(0)" onmouseout="blurbDown(0)"><!-- Featured Article -->
         <div class="description">
           <h2>A Hero's Journey in Half the Runtime</h2>

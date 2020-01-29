@@ -4,6 +4,7 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
     <meta charset="utf-8">
+<link rel="icon" href="resource/bottled-gaming-logo.png" type="image/x-icon">
     <title>Call to Adventure - Bottled Gaming</title>
     <link rel="shortcut icon" href="resource/horned-meeple.png"/>
     <link rel="stylesheet" href="css/common.css">
@@ -114,6 +115,14 @@
       </div>
     </main>
     <aside class="">
+      <div class="object" id="subscription" >
+        <h2>Sign-up for The Bottled Gaming Digest!</h2>
+        <p>Get an e-mail digest on Mondays. You will also be notified of future product <em>giveaways</em>. Unsubscribe at any time. </p>
+        <br>
+        <input id="email" type="email" name="" value="" placeholder="Your e-mail address" >
+        <button type="button" name="button" onclick="subscribe()">I want in!</button>
+        <span id="emailError"></span>
+      </div>
       <a class="featurette object" href="colonial-europes-empires-overseas-review.html" style='background-image: url(articles/colonial-europes-empires-overseas/colonial-europes-empires-overseas-board-end-game.jpg)' onmouseover="blurbUp(0)" onmouseout="blurbDown(0)">
         <div class="description">
           <h2>The Overhauled Colonial Experience</h2>
@@ -131,6 +140,9 @@
       Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
     </footer>
     <script src="scripts/transitions.js">
+
+    </script>
+    <script src="scripts/validations.js">
 
     </script>
   </body>

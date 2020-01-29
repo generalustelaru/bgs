@@ -1,3 +1,9 @@
+main{
+ width: 60%;
+}
+aside{
+  width: 20%;
+}
 .latest{
   box-sizing: border-box;
   width: 165px;
@@ -41,11 +47,14 @@
     padding: 3px 6px;
   }
 }
+#subscription{
+  margin-left: 0px;
+}
 .blog{
   box-sizing: border-box;
   width: 1000px;
   height: 200px;
-  margin-left: 17.25%;
+  margin-left: 80px;
   margin-right: auto;
   margin-top: 30px;
 
