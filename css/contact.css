@@ -32,8 +32,9 @@ main{
 }
 .contactForm textarea{
   font-size: 1em;
- margin-top: 20px;
+  margin-top: 20px;
   padding: 5px;
+  resize: none;
 }
 
 #emailError{

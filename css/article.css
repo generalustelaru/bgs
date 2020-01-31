@@ -6,6 +6,20 @@ main{
   overflow:auto; //NEW!
 }
 
+#toTop{
+  display: block;
+  position: fixed;
+  box-sizing: border-box;
+  height: 250px;
+  left: -180px;
+  transform: rotate(0deg);
+  transition-property: all;
+  transition-duration: .3s;
+}
+#toTop img{
+  max-height: 100%;
+}
+
 aside{
 //width: auto;
 }

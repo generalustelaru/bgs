@@ -10,7 +10,7 @@ aside{
   height: 2000px;
 }
 #subscription{
- 
+
 }
 
 .featured{
@@ -26,6 +26,7 @@ aside{
   background-size: cover;
   background-position: bottom;
 }
+
 .featureDescription{
   box-sizing: border-box;
   position: absolute;

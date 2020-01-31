@@ -19,6 +19,7 @@
     </style>
   </head>
   <body style="font-family: 'garamond'">
+    <a name="pageTop"></a>
     <a href="index.html">
       <header style="font-family: 'calistoga'"><!-- Header -->
         <img class="logo" src="resource/antlered-meeple-juice.png" alt="Bottled Gaming Logo">
@@ -62,6 +63,9 @@
         </a>
       </nav>
     </div>
+    <a id="toTop" href="#pageTop">
+      <img src="resource/bottled-gaming-logo-detail-white.png" alt="">
+    </a>
     <main>
       <div class="article">
         <h1>Lorem Ipsum</h1>
@@ -80,31 +84,47 @@
         <p>Praesent et justo diam. In nulla mauris, tincidunt nec eros sed, accumsan placerat tortor. Mauris et aliquam libero. Suspendisse finibus tincidunt ante vel commodo. Aenean sagittis malesuada risus in facilisis. Nulla consequat consectetur mi in cursus. Curabitur feugiat erat at laoreet mollis. Etiam quis metus odio. Donec sit amet luctus lectus. Pellentesque eget eleifend arcu.</p>
 
         <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean felis mauris, sagittis non nulla et, rutrum tincidunt dolor. Aenean et neque quis nulla imperdiet porttitor. Morbi eget massa posuere, sodales nisl egestas, auctor nisi. Donec bibendum luctus luctus. Integer eget felis ac urna tincidunt ultricies. Maecenas urna urna, malesuada sed molestie ut, volutpat sed eros. Integer commodo quam et nisi faucibus posuere. Donec eget imperdiet metus, vitae congue arcu. Donec euismod enim a nibh faucibus, id cursus tellus egestas. Nunc eget massa at ligula pellentesque elementum. Nunc at nibh magna. Mauris ac nisi id risus mollis ultrices at non ex. Duis gravida, magna id tempor fringilla, justo elit pulvinar neque, at faucibus diam erat eget purus. Sed accumsan tempor lacus nec molestie. </p>
+
       </div>
     </main>
+
     <aside>
+
       <div class="object" id="subscription" >
         <h2>Sign-up for The Bottled Gaming Digest!</h2>
         <p>Get an e-mail digest on Mondays. You will also be notified of future product <em>giveaways</em>. Unsubscribe at any time. </p>
         <br>
-        <input id="email" type="email" name="" value="" placeholder="Your e-mail address" >
+        <input id="email" type="email" name="" value="" placeholder="Your e-mail address" onfocus="emailRetry()">
         <button type="button" name="button" onclick="subscribe()">I want in!</button>
         <span id="emailError"></span>
       </div>
+      <div class="miniTube object">
+        <iframe width="490px" height="auto" src="https://www.youtube.com/embed/9gvx5agqoBo" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        Reccomended lecture enhancer.
+      </div>
       <a class='featurette object' href="call-to-adventure-review.html" style='background-image: url(articles/call-to-adventure/call-to-adventure-review-featured-667x500.jpg);' onmouseover="blurbUp(0)" onmouseout="blurbDown(0)"><!-- Featured Article -->
         <div class="description">
+          <div class="articleType">
+            Review
+          </div>
           <h2>A Hero's Journey in Half the Runtime</h2>
           <p>As the game is focused on a fantasy adventure, the resources are your hero’s stats, which appear as rune symbols on the cards you collect. Whenever you attempt a Challenge, you will have to choose between one of two of its paths [...] &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
       </a>
       <a class="featurette object" href="colonial-europes-empires-overseas-review.html" style='background-image: url(articles/colonial-europes-empires-overseas/colonial-europes-empires-overseas-board-end-game.jpg)' onmouseover="blurbUp(1)" onmouseout="blurbDown(1)">
         <div class="description">
+          <div class="articleType">
+            Review
+          </div>
           <h2>The Overhauled Colonial Experience</h2>
           <p>In a game that is set to recreate the challenges of the age of exploration, throwing dice to determine whether you get VP or not is beyond ludicrous; Why would a player ever engage in the lengthy process of colonizing China when a free dice-roll can yield the same reward?! [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
       </a>
       <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(2)" onmouseout="blurbDown(2)">
         <div class="description">
+          <div class="articleType">
+            News
+          </div>
           <h2>Dolor Sic</h2>
           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
@@ -114,7 +134,10 @@
       Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
     </footer>
     <script src="scripts/transitions.js">
-
+    </script>
+    <script src="scripts/validations.js">
+    </script>
+    <script src="scripts/articleScripts.js">
     </script>
   </body>
 </html>

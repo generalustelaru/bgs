@@ -2,6 +2,10 @@
 //var digest = false;
 //localStorage.setItem("news", news);
 //localStorage.setItem("digest", digest);
+function emailRetry(){
+  document.getElementById('emailError').innerHTML = "";
+}
+
 function contactForm(){
   var eMail = document.getElementById('email').value;
   if (document.getElementById("news").checked == true) {

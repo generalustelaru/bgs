@@ -170,6 +170,19 @@ button:focus {
 button:active {
     transform: scale(0.99);
 }
+
+.miniTube{
+  float:left;
+  box-sizing: border-box;
+  background: white;
+  color: #2c1000;
+  width: 490px;
+  height: 200px;;
+  margin-top: 30px;
+  margin-left: 40px;
+  font-size: 1.5em;
+  text-align: center;
+}
 .featurette{
   position: relative;
   box-sizing: border-box;
@@ -192,7 +205,7 @@ button:active {
   margin-top: 30px;
   width:490px;
   height: 200px;
-  
+
 }
 #email{
   margin-left: 20px;
@@ -212,6 +225,22 @@ button:active {
   //white-space: nowrap;
   transition-property: all;
   transition-duration: .3s;
+}
+.articleType{
+  box-sizing: border-box;
+  background-color: white;
+  color: #2c1000;
+  height: 1.8em;
+  width: 100px;
+  float: right;
+  font-size: 1.5em;
+  text-align: center;
+  padding-top: 6px;
+  text-decoration: none;
+  border-radius: 0px 10px 0px 0px;
+  position: absolute;
+  top: -1.8em;
+  border-bottom: 1px beige solid;
 }
 h2{
   line-height: 45px;
