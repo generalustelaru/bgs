@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 <link rel="icon" href="resource/bottled-gaming-logo.png" type="image/x-icon">
-    <title>Bottled Gaming - Home</title>
+    <title>BGS - Home</title>
     <link rel="shortcut icon" href="resource/horned-meeple.png"/>
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
@@ -21,12 +21,10 @@
   <body style="font-family: 'garamond'">
     <a href="index.html">
       <header style="font-family: 'calistoga'"><!-- Header -->
-        <img src="resource/antlered-meeple-juice.png" alt="Bottled Gaming Logo">
-        <h1>bottled gaming</h1>
-        <div class="headerBox">
-          <div class="headerQuote">
-            "Play is best preceded by a decently-sized shot of JaegerMei&szligter." <br>- said No One Ever, but it doesn't sound at all bad.
-          </div>
+        <img src="resource/antlered-meeple-juice.png" alt="BGS Logo">
+        <h1>big game spirits</h1>
+        <div class="headerQuote">
+          "Play is best preceded by a decently-sized shot of JaegerMei&szligter." - said No One Ever, but it doesn't sound at all bad.
         </div>
       </header>
     </a>
@@ -37,7 +35,7 @@
             <div class="home">
               home
             </div>
-            <img src="resource/home-icon-theme.png" alt="Home">
+            <img src="resource/bottled-gaming-logo-detail-white.png" alt="Home">
           </div>
         </a>
         <a href="news.html"><!-- News -->
@@ -129,12 +127,40 @@
     </main>
     <aside class="">
       <div class="object" id="subscription" >
-        <h2>Sign-up for The Bottled Gaming Digest!</h2>
+        <h2>Sign-up for The BGS Digest!</h2>
         <p>Get an e-mail digest on Mondays. You will also be notified of future product <em>giveaways</em>. Unsubscribe at any time. </p>
         <br>
         <input id="email" type="email" name="" value="" placeholder="Your e-mail address" onfocus="emailRetry()" >
         <button type="button" name="button" onclick="subscribe()">I want in!</button>
         <span id="emailError"></span>
+      </div>
+      <div class="poll object">
+        <div class="pollTitle">
+          Community Poll
+        </div>
+        <form action="" method="post">
+          How does your group learn them rules? <br>
+          <label id="l1" class="pollOption" onmouseover="pollHover(1)" onmouseout="pollOut(1)" onclick="pollSelect(1)">
+            <span class="radioButton" id="po1"></span>
+            I prepare a formal presentation, no exception!
+          </label>
+          <label id="l2" class="pollOption" onmouseover="pollHover(2)" onmouseout="pollOut(2)" onclick="pollSelect(2)">
+            <span class="radioButton" id="po2"></span>
+            <span class="optionDescription">Everybody does their homework in advance.</span>
+          </label>
+          <label id="l3" class="pollOption" onmouseover="pollHover(3)" onmouseout="pollOut(3)" onclick="pollSelect(3)">
+            <span class="radioButton" id="po3"></span>
+            <span class="optionDescription">The game's owner is responsible for knowing everything.</span>
+          </label>
+          <label id="l4" class="pollOption" onmouseover="pollHover(4)" onmouseout="pollOut(4)" onclick="pollSelect(4)">
+            <span class="radioButton" id="po4"></span>
+            <span class="optionDescription">We try to learn on the go. First dibs on the rulebook.</span>
+          </label>
+          <label id="l5" class="pollOption" onmouseover="pollHover(5)" onmouseout="pollOut(5)" onclick="pollSelect(5)">
+            <span class="radioButton" id="po5"></span>
+            <span class="optionDescription">We draw straws a week in advance for who gets to be it.</span>
+          </label>
+        </form>
       </div>
     </aside>
     <footer>

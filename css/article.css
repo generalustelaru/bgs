@@ -1,9 +1,9 @@
 
 main{
-  width: 60%;
+  width: 950px;
   height:auto;
-  padding-left: 5px;
-  overflow:auto; //NEW!
+  margin-left: 10%;
+  //overflow:auto; //NEW!
 }
 
 #toTop{
@@ -21,11 +21,12 @@ main{
 }
 
 aside{
-//width: auto;
+  width: 490px;
+  margin-left: 30px;
 }
 
 .article{
-  width: 80%;
+  width: 100%;
   height: auto;
   padding-bottom: 60px;
   float: right;
@@ -70,12 +71,16 @@ aside{
   margin-right: 30px;
   text-align: justify;
 }
-.articleRightPanel {
-  //width: 40%;
-}
-.featurette{
-  margin-left: 5%;
-}
-#subscription{
-  margin-left: 5%;
+.miniTube{
+  float:left;
+  box-sizing: border-box;
+  background: #2C1000;
+  color: #d2a11b;
+  width: 490px;
+  height: 200px;;
+  margin-top: 30px;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.6em;
+  font-family: calistoga;
 }

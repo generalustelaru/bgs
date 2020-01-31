@@ -40,3 +40,23 @@ function subscribe(){
     //document.getElementById('email').style.width = "310px";
   }
 }
+function pollHover(n){
+  var a = document.getElementById('po'+n);
+  a.style.opacity = "1";
+}
+function pollOut(n){
+  var a = document.getElementById('po'+n);
+  a.style.opacity = "0";
+}
+function pollSelect(n){
+  var a = document.getElementById('l'+n);
+  for (var i = 1; i <= 5; i++) {
+    if (i != n){
+      var b = document.getElementById('l'+i);
+      b.style.textShadow = "";
+    }
+  }
+  a.style.textShadow = "1px 0px red";
+
+  //console.log('hello');
+}

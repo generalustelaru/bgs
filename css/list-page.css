@@ -1,8 +1,10 @@
 main{
- width: 60%;
+ width: 1000px;
+  margin-left: 10%;
 }
 aside{
-  width: 20%;
+  width: 490px;
+  margin-left: 30px;
 }
 .latest{
   box-sizing: border-box;
@@ -17,13 +19,13 @@ aside{
   vertical-align: center;
 
   position: relative;
-  left: 250px;
+  left: 230px;
   top:10px;
   transform: rotate(30deg);
 
   animation-name: latest;
   animation-duration: 2s;
-  //animation-delay: 2s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
 }
 @keyframes latest {
@@ -54,8 +56,6 @@ aside{
   box-sizing: border-box;
   width: 1000px;
   height: 200px;
-  margin-left: 80px;
-  margin-right: auto;
   margin-top: 30px;
 
   background-image: url(../resource/default-image.png);
@@ -64,7 +64,7 @@ aside{
   background-position: right;
 }
 .blog .date{
-  margin-left: 18px;
+  margin-left: 15px;
 }
 .blog .imageThumbnail{
   box-sizing: border-box;
@@ -75,7 +75,7 @@ aside{
 .blog .imageThumbnail img{
   max-height: 100%;
 }
-.blogDescription{
+.wideDescription{
   box-sizing: border-box;
   position: absolute;
   float:right;
