@@ -42,7 +42,7 @@ header img{
   animation-duration: .5s;
   animation-timing-function: ease;
   animation-iteration-count: 1;
-  animation-delay: 1s; 
+  animation-delay: 1s;
   margin-left: 22.5%;
 }
 @keyframes logo {
@@ -143,11 +143,11 @@ button {
     text-decoration: none;
     background: #2C1000;
     color: #ffffff;
-    font-family: sans-serif;
+    font-family: calistoga;
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    transition: background 250ms ease-in-out,
+    transition: background 80ms ease-in-out,
                 transform 150ms ease;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -198,6 +198,9 @@ button:active {
   width: 310px;
 }
 #emailError{
+  color: #900000;
+}
+heart{
   color: red;
 }
 .description{

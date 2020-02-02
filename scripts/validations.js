@@ -1,62 +1,62 @@
-//var news = false;
-//var digest = false;
-//localStorage.setItem("news", news);
-//localStorage.setItem("digest", digest);
+
+function clearSub(){
+  localStorage.clear();
+  console.log('storage cleared');
+}
 function emailRetry(){
   document.getElementById('emailError').innerHTML = "";
 }
 
-function contactForm(){
-  var eMail = document.getElementById('email').value;
-  if (document.getElementById("news").checked == true) {
-    //news = 'true';
-    localStorage.setItem("news", 'true');
-  }
-  if (document.getElementById("digest").checked == true) {
-    //digest = 'true';
-    localStorage.setItem("digest", 'true');
-  }
-  if (eMail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
-    console.log(news);
-    console.log(digest);
-    window.open("message-submition.html", "_self");
-  } else {
-    document.getElementById('emailError').innerHTML = "Oops! Something's wrong with your e-mail address :(";
-    document.getElementById('email').style.border = "1px solid red";
-    //document.getElementById('email').style.padding.left = "10px;";
-  }
-}
 function subscribe(){
   var eMail = document.getElementById('email').value;
   if (eMail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
-    alert("You're all set!");
-    document.getElementById('emailError').innerHTML = "";
-    document.getElementById('email').style.border = "";
-    document.getElementById('email').value = "";
+    var slate = document.getElementById('subscription');
+    while (slate.firstElementChild != null) {
+      slate.removeChild(slate.firstElementChild);
+    }
+    if (localStorage.getItem("sub") != "subbed") {
+      slate.innerHTML = "<h2>Thanks for subscribing! <heart>&#9829;</heart></h2><p>You will receive a confirmation e-mail. Please make sure you read it.</p>";
+      localStorage.setItem("sub", "subbed");
+    }else {
+      slate.innerHTML = "<h2>It looks like you're already subscribed.</h2>";
+    }
+    //console.log(localStorage.getItem("sub"));
   }else{
-    document.getElementById('emailError').innerHTML = "<p>Oops! Something's wrong!</p>";
-    document.getElementById('email').style.border = "1px solid red";
-    document.getElementById('email').style.height = "2em";
-    //document.getElementById('email').style.width = "310px";
+    document.getElementById('emailError').innerHTML = "<p>Oops! Something's wrong with your e-mail address :(</p>";
   }
 }
-function pollHover(n){
-  var a = document.getElementById('po'+n);
-  a.style.opacity = "1";
-}
-function pollOut(n){
-  var a = document.getElementById('po'+n);
-  a.style.opacity = "0";
-}
-function pollSelect(n){
-  var a = document.getElementById('l'+n);
+
+function pollSelect(n){ // When pollOption n is selected
+  var a = document.getElementById('l'+n); // container label
+  var c = document.getElementById('po'+n); // visual selector
+  console.log(a);
+  console.log(b);
   for (var i = 1; i <= 5; i++) {
     if (i != n){
       var b = document.getElementById('l'+i);
       b.style.textShadow = "";
     }
   }
-  a.style.textShadow = "1px 0px red";
+  //a.style.backgroundColor = "#D2A11B";
+  //c.style.backgroundColor = "white";
+}
 
-  //console.log('hello');
+function vote(){
+  alert("'s-obosit");
+}
+
+function contactForm(){
+  var eMail = document.getElementById('email').value;
+  if (document.getElementById("news").checked == true) {
+    localStorage.setItem("news", 'true');
+  }
+  if (document.getElementById("digest").checked == true) {
+    localStorage.setItem("digest", 'true');
+  }
+  if (eMail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
+    window.open("message-submition.html", "_self");
+  } else {
+    document.getElementById('emailError').innerHTML = "Oops! Something's wrong with your e-mail address :(";
+    //document.getElementById('email').style.border = "1px solid red";
+  }
 }

@@ -38,7 +38,7 @@ main{
 }
 
 #emailError{
-  color: red;
+  color: #900000;
   font-size: 1.3em;
 }
 #email{

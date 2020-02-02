@@ -3,10 +3,10 @@ main{
   width: 950px;
   height:auto;
   margin-left: 10%;
-  //overflow:auto; //NEW!
 }
 
 #toTop{
+  outline: 0; //NEW
   display: block;
   position: fixed;
   box-sizing: border-box;
@@ -74,13 +74,16 @@ aside{
 .miniTube{
   float:left;
   box-sizing: border-box;
-  background: #2C1000;
-  color: #d2a11b;
+  background: white;
+  //background: #2C1000;
+  //background-image: url(../resource/parchment.jpg);
+  //color: #d2a11b;
+  //color: #672800;
   width: 490px;
-  height: 200px;;
+  height: 180px;;
   margin-top: 30px;
   font-size: 1.3em;
   text-align: center;
-  line-height: 1.6em;
-  font-family: calistoga;
+  line-height: 1.1em;
+  font-family: inherit;
 }
