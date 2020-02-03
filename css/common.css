@@ -190,7 +190,7 @@ button:active {
   margin-top: 30px;
   width:490px;
   height: 200px;
-
+  text-align:center;
 }
 #email{
   margin-left: 20px;
@@ -210,6 +210,7 @@ heart{
   height: 100px;
   bottom: 0px;
   background-color: white;
+  border-top: 2px #2C1000 solid;
   //white-space: nowrap;
   transition-property: all;
   transition-duration: .3s;
@@ -228,7 +229,10 @@ heart{
   border-radius: 0px 10px 0px 0px;
   position: absolute;
   top: -1.8em;
+  border-top: 2px #2C1000 solid;
+  border-right: 2px #2C1000 solid;
   border-bottom: 1px beige solid;
+  
 }
 h2{
   line-height: 45px;
@@ -253,34 +257,19 @@ fauxlink{
 .object{
   display: block;
   position: relative;
-  box-shadow: 0px 6px #2C1000;
+  box-shadow: 10px 10px 5px #2C1000;
+  transition-property: none;
+  transition-duration: .3s;
 }
-.object:hover{
-
-  box-shadow: 0px 6px #D2A11B;
-  filter: blur(0);
+.object:active{
+  //transform: translateY(1px);
+  box-shadow: 12px 12px 5px #2C1000;
+  //filter: blur(0);
 }
 .object:hover fauxlink{
   color: #D2A11B;
 }
 
-
-
-
-/* Responsive adjustments*/
-@media (max-width: 1720px) {
-  .headerBox{
-    box-sizing: border-box;
-    width: 800px;
-    height: 50px;
-    margin: 0px;
-    //background-color: black;
-    float:left;
-    padding: 0px 0px 0px 0px;
-  }
-}
-
-/* Responsiveness end. */
 em{
   font-style: inherit;
   color: #900000; /*extra color was necessary */
@@ -300,6 +289,8 @@ ul li{
 }
 main{
   box-sizing: border-box;
+  height: auto;
+  padding-bottom: 30px;
   float: left;
   z-index: 1;
 }
@@ -323,3 +314,18 @@ footer{
   position: relative;
   top: 30px;
 }
+
+/* Responsive adjustments*/
+@media (max-width: 1720px) {
+  .headerBox{
+    box-sizing: border-box;
+    width: 800px;
+    height: 50px;
+    margin: 0px;
+    //background-color: black;
+    float:left;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+/* Responsiveness end. */

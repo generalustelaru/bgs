@@ -1,4 +1,11 @@
 
+(
+  function(){
+    if (localStorage.getItem('sub') == "subbed")
+    document.getElementById('subscription').remove();
+  }
+  ()
+)
 function clearSub(){
   localStorage.clear();
   console.log('storage cleared');
@@ -15,7 +22,7 @@ function subscribe(){
       slate.removeChild(slate.firstElementChild);
     }
     if (localStorage.getItem("sub") != "subbed") {
-      slate.innerHTML = "<h2>Thanks for subscribing! <heart>&#9829;</heart></h2><p>You will receive a confirmation e-mail. Please make sure you read it.</p>";
+      slate.innerHTML = "<br><br><h2>Thanks for subscribing! <heart>&#9829;</heart></h2><p>You will receive a confirmation e-mail soon.<br> Make sure to also check your spambox.</p>";
       localStorage.setItem("sub", "subbed");
     }else {
       slate.innerHTML = "<h2>It looks like you're already subscribed.</h2>";
@@ -27,31 +34,31 @@ function subscribe(){
 }
 
 function pollSelect(n){ // When pollOption n is selected
-  var a = document.getElementById('l'+n); // container label
-  var c = document.getElementById('po'+n); // visual selector
-  console.log(a);
-  console.log(b);
+  var a = document.getElementById('option'+n); // container label
+  var a2 = document.getElementById('check'+n);
   for (var i = 1; i <= 5; i++) {
     if (i != n){
-      var b = document.getElementById('l'+i);
-      b.style.textShadow = "";
+      var b2 = document.getElementById('check'+i);
+      var b = document.getElementById('option'+i);
+      b.style.opacity = "0.80";
+      b2.style.opacity = "0";
     }
   }
-  //a.style.backgroundColor = "#D2A11B";
-  //c.style.backgroundColor = "white";
+  a.style.opacity = "1";
+  a2.style.opacity = "1";
 }
 
 function vote(){
-  alert("'s-obosit");
+  alert("Coming soon :)");
 }
 
 function contactForm(){
   var eMail = document.getElementById('email').value;
   if (document.getElementById("news").checked == true) {
-    localStorage.setItem("news", 'true');
+    localStorage.setItem('news', "true");
   }
   if (document.getElementById("digest").checked == true) {
-    localStorage.setItem("digest", 'true');
+    localStorage.setItem('sub', "subbed");
   }
   if (eMail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
     window.open("message-submition.html", "_self");

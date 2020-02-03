@@ -1,14 +1,13 @@
 main{
-  width: 1000px;
+  width: 1026px;
   margin:auto;
   height:auto;
-  margin-left: 10%;
+  margin-left: 180px;
   overflow:auto; //NEW!
 }
 aside{
   width: 490px;
-  height: 2000px;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 .poll{
   background-image: url(../resource/parchment.jpg);
@@ -46,6 +45,7 @@ aside{
   transform: rotate(45deg);
   position: relative;
   bottom: 2px;
+  left: 2px;
   opacity: 0;
 }
 .optionDescription{
@@ -78,6 +78,7 @@ aside{
   height: 200px;
   bottom: 0px;
   background-color: white;
+  border-top: 2px #2C1000 solid;
 }
 .featurette:nth-child(2n+1){
   margin-left: 20px;

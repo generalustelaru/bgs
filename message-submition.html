@@ -23,7 +23,7 @@
       <header style="font-family: 'calistoga'"><!-- Header -->
         <img class="logo" src="resource/antlered-meeple-juice.png" alt="BGS Logo">
         <h1>big game spirits</h1>
-        
+
           <div class="headerQuote">
             "Play is best preceded by a decently-sized shot of JaegerMei&szligter." - said No One Ever, but it doesn't sound at all bad.
           </div>
@@ -84,16 +84,17 @@
 
     </script>
     <script type="text/javascript">
-      var hereNews = localStorage.getItem("news");
-      var hereDigest = localStorage.getItem("digest");
+      //var hereNews = localStorage.getItem("news");
+      var hereDigest = localStorage.getItem("sub");
       (
         function(){
-          console.log(hereNews);
+          //console.log(hereNews);
           console.log(hereDigest);
-          if (hereNews == 'true' || hereDigest == 'true') {
-          document.getElementById('response').innerHTML = "Thanks for your message and for subscribing!"
-          localStorage.setItem("news", '');
-          localStorage.setItem("digest", '');
+          //if (hereNews == 'true' || hereDigest == 'true') {
+          if (hereDigest == 'subbed') {
+          document.getElementById('response').innerHTML = "Thanks for your message and for subscribing! <heart>&#9829;</heart>"
+          //localStorage.setItem("news", '');
+          //localStorage.setItem("digest", '');
           }
         }
         ()
