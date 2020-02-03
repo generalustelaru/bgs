@@ -36,6 +36,9 @@ aside{
   //border-radius: 0px 30px 0px 0px;
 
 }
+.article a{
+  color: #900000;
+}
 .article h1{
   margin: 40px 30px;
 }
