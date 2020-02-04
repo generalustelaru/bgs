@@ -82,7 +82,7 @@ aside{
 }
 .featurette:nth-child(2n+1){
   margin-left: 20px;
-
+}
 h2{
   line-height: 45px;
   text-indent: 15px;

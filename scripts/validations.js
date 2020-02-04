@@ -1,8 +1,10 @@
 
 (
   function(){
-    if (localStorage.getItem('sub') == "subbed")
-    document.getElementById('subscription').remove();
+    if (document.getElementById('subscription') != null) {
+      if (localStorage.getItem('sub') == "subbed")
+      document.getElementById('subscription').remove();
+    }
   }
   ()
 )
@@ -54,16 +56,24 @@ function vote(){
 
 function contactForm(){
   var eMail = document.getElementById('email').value;
-  if (document.getElementById("news").checked == true) {
-    localStorage.setItem('news', "true");
-  }
-  if (document.getElementById("digest").checked == true) {
-    localStorage.setItem('sub', "subbed");
-  }
   if (eMail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
-    window.open("message-submition.html", "_self");
+    var slate = document.getElementById('contactForm');
+    slate.removeChild(slate.firstElementChild);
+    var feedback = document.createElement('h2');
+    feedback.innerHTML = "Thank you for contacting us! <heart>&#9829;</heart>";
+    document.getElementById('contactForm').appendChild(feedback);
+    var notice = document.createElement('p');
+    notice.innerHTML = "You will be redirected shortly...";
+    document.getElementById('contactForm').appendChild(notice);
+    slate.style.textAlign = "center";
+    setTimeout(redirect, 3000);
   } else {
     document.getElementById('emailError').innerHTML = "Oops! Something's wrong with your e-mail address :(";
     //document.getElementById('email').style.border = "1px solid red";
   }
+}
+function redirect(){
+  //var location = ['index', 'news', 'reviews', 'blog', 'contact'];
+  //window.open(location[link]+".html", "_self");
+  window.open("index.html", "_self");
 }

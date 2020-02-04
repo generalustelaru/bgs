@@ -1,9 +1,9 @@
 main{
  width: 1000px;
-  margin-left: 10%;
+  margin-left: 22%;
 }
 aside{
-  width: 490px;
+  //width: 490px;
   margin-left: 30px;
 }
 .latest{
@@ -17,9 +17,9 @@ aside{
   text-transform: uppercase;
   text-align: center;
   vertical-align: center;
-
+  z-index: 2;
   position: relative;
-  left: 230px;
+  left: 260px;
   top:10px;
   transform: rotate(30deg);
 
@@ -52,7 +52,7 @@ aside{
 #subscription{
   margin-left: 0px;
 }
-.blog{
+.news{
   box-sizing: border-box;
   width: 1000px;
   height: 200px;
@@ -63,16 +63,16 @@ aside{
   background-size: cover;
   background-position: right;
 }
-.blog .date{
+.news .date{
   margin-left: 15px;
 }
-.blog .imageThumbnail{
+.news .imageThumbnail{
   box-sizing: border-box;
   float: right;
   height: inherit;
   width: 200px;
 }
-.blog .imageThumbnail img{
+.news .imageThumbnail img{
   max-height: 100%;
 }
 .wideDescription{

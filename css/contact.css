@@ -2,7 +2,7 @@ main{
   //background-color: olivedrab;
   opacity: 1;
   width: 60%;
-  height: 1000px;
+  height: auto;
   margin-left: 20%;
   margin-right: 20%;
   overflow:auto; //NEW!
@@ -36,6 +36,7 @@ main{
   padding: 5px;
   resize: none;
 }
+
 
 #emailError{
   color: #900000;

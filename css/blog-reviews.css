@@ -1,0 +1,14 @@
+main{
+  width: 1540px;
+  margin:auto;
+  height:auto;
+  margin-left: 180px;
+  overflow:auto; //NEW!
+}
+aside{
+  width: 490px;
+  margin-left: 0px;
+}
+.featurette{
+  margin-left: 20px;
+}
