@@ -9,6 +9,11 @@ aside{
   width: 490px;
   margin-left: 0px;
 }
+@keyframes flip {
+  0%  {transform: rotateX(0deg)}
+  50% {transform: rotateX(90deg)}
+  100%{transform: rotateX(0deg)}
+}
 .poll{
   background-image: url(../resource/parchment.jpg);
   box-sizing: border-box;
@@ -21,13 +26,18 @@ aside{
   line-height: 1.8em;
   padding: 15px;
 }
+#poll{
+  //animation-name: flip;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
 .pollTitle{
   text-align: center;
   font-family: calistoga;
 }
 .poll hr{
   color: #900000;
-  margin: 10px 0px;
+  //margin: 0px 0px;
 }
 
 .pollOption{
@@ -54,9 +64,22 @@ aside{
 }
 .poll button{
   width: 150px;
-  margin: 0px 155px;
+  margin: 10px 155px;
 }
-
+#voteError{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #900000;
+  font-weight: bolder;
+}
+resultBar{
+  display: block;
+  background-color: #900000;
+  height: 1.5em;
+  width: 25px;
+  color: white;
+}
 .featured{
   box-sizing: border-box;
   width: 1000px;

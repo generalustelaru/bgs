@@ -39,7 +39,7 @@
           </div>
         </a>
         <a href="news.html"><!-- News -->
-          <div class="button">
+          <div class="button" id="fake" onmouseover="fake()" onmouseout="deFake()">
             news
           </div>
         </a>
@@ -93,19 +93,19 @@
       <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(2)" onmouseout="blurbDown(2)" style ="background-image: url(articles/mock/wingspan.jpg)">
         <div class="description">
           <div class="articleType">
-            News
+            Blog
           </div>
-          <h2>Maecenas suscipit</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+          <h2>Wingspan has the Cutest Artwork</h2>
+          <p>As Oceania, the second expansion for the award winning card game is soon to release, we thought of looking over the wonderfullly illustrated cards of both the original game and it's first "European Expansion" pack. Stonemayer Games is well known for [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
       </a>
       <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(3)" onmouseout="blurbDown(3)" style ="background-image: url(articles/mock/terraforming-mars.jpg)">
         <div class="description">
           <div class="articleType">
-            News
+            Review
           </div>
-          <h2>Dolor Sic</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
+          <h2>Terraforming Mars: Back to Earth</h2>
+          <p>Although the thought of terraforming our home planet is well within the domain of fantasy science-fiction, the perspective of finding a second Earth-like planet out there poses a serious question of ethics. When it comes to modifying the natural environment [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
       </a>
       <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(4)" onmouseout="blurbDown(4)"  style ="background-image: url(articles/mock/rocketmen.jpg)">
@@ -113,7 +113,7 @@
           <div class="articleType">
             News
           </div>
-          <h2>Mauris tortor enim</h2>
+          <h2>Martin Wallace Strikes Again!</h2>
           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
       </a>
@@ -128,8 +128,8 @@
         <button type="button" name="button" onclick="subscribe()">I want in!</button>
         <span id="emailError"></span>
       </div>
-      <div class="poll object">
-        <div class="pollTitle">
+      <div class="poll object" id="poll">
+        <div class="pollTitle" id="pollTitle">
           Community Poll
         </div>
         <form>
@@ -157,12 +157,13 @@
           </div>
           <hr>
           <button type="button" name="button" onclick="vote()">Vote!</button>
+          <span id="voteError"></span>
         </form>
       </div>
 
     </aside>
     <footer>
-      Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
+      Design and Content by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy All Rights Reserved
       <button style="float: right;" type="button" onclick="clearSub()">clear localStorage</button>
     </footer>
 

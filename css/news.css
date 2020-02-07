@@ -2,10 +2,10 @@ main{
  width: 1000px;
   margin-left: 22%;
 }
-aside{
-  //width: 490px;
-  margin-left: 30px;
+.object{
+  //animation-play-state: running;
 }
+
 .latest{
   box-sizing: border-box;
   width: 165px;
@@ -50,7 +50,13 @@ aside{
   }
 }
 #subscription{
-  margin-left: 0px;
+  float: none;
+  box-sizing: border-box;
+  width: 800px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 100px;
+  z-index: 4;
 }
 .news{
   box-sizing: border-box;
@@ -78,7 +84,7 @@ aside{
 .wideDescription{
   box-sizing: border-box;
   position: absolute;
-  float:right;
+  //float:right;
   width: 800px;
   height: 200px;
   bottom: 0px;

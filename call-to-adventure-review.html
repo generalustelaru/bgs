@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
     <meta charset="utf-8">
 <link rel="icon" href="resource/bottled-gaming-logo.png" type="image/x-icon">
     <title>Call to Adventure - BGS</title>
@@ -47,7 +45,7 @@
           </div>
         </a>
         <a href="news.html"><!-- News -->
-          <div class="button">
+          <div class="button" id="fake" onmouseover="fake()" onmouseout="deFake()">
             news
           </div>
         </a>
@@ -72,7 +70,7 @@
       <img src="resource/bottled-gaming-logo-detail-white.png" alt="">
     </a>
     <main>
-      <div class="article">
+      <div class="article object">
         <h1>A Hero's Journey in Half the Runtime</h1>
         <div class="author">
           <img class="avatar" src="avatars/generalu-stelaru.jpg" alt="Avatar"><span>Generalu Stelaru</span>
@@ -143,15 +141,15 @@
       <a class="featurette object" href="articleTemplatePage.html" onmouseover="blurbUp(1)" onmouseout="blurbDown(1)" style ="background-image: url(articles/mock/brass-birmingham.jpg)">
         <div class="description">
           <div class="articleType">
-            News
+            Review
           </div>
-          <h2>Maecenas suscipit</h2>
+          <h2>Brass: Birmingham - Coal, Steam, and Booze</h2>
           <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris tortor enim, cursus dictum felis non, imperdiet laoreet odio. Maecenas suscipit, turpis non commodo dapibus, turpis neque egestas massa, pellentesque tempor [...]  &nbsp<fauxlink>Read more.</fauxlink></p>
         </div>
       </a>
     </aside>
     <footer>
-      Created by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy Some Rights Reserved.
+      Design and Content by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy All Rights Reserved
     </footer>
     <script src="scripts/transitions.js">
     </script>

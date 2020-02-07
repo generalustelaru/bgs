@@ -34,7 +34,7 @@ function subscribe(){
     document.getElementById('emailError').innerHTML = "<p>Oops! Something's wrong with your e-mail address :(</p>";
   }
 }
-
+let pollOption;
 function pollSelect(n){ // When pollOption n is selected
   var a = document.getElementById('option'+n); // container label
   var a2 = document.getElementById('check'+n);
@@ -48,12 +48,52 @@ function pollSelect(n){ // When pollOption n is selected
   }
   a.style.opacity = "1";
   a2.style.opacity = "1";
+  pollOption = n;
 }
 
 function vote(){
-  alert("Coming soon :)");
-}
+  if (pollOption == null) {
+    document.getElementById('voteError').innerHTML = "Pick an option first!";
+  }else {
+    document.getElementById('poll').style.animationName = "flip";
+    setTimeout(function voteProcess() {
+      var slate = document.getElementById('poll');
+      document.getElementById('pollTitle').innerHTML = "Poll Results"
+      slate.style.backgroundImage = "none";
+      slate.style.backgroundColor = "white";
+      var option = []; // tine raspunsurile text
+      var optionRetrieve = document.getElementsByClassName('optionDescription');
+      for (var i = 0; i < optionRetrieve.length; i++) {
+        var transfer = optionRetrieve[i];
+        option[i] = transfer.innerText;
+      }//for
+      slate.removeChild(slate.lastElementChild);
+      for (var i = 0; i < option.length; i++) {
+        var builder = document.createElement('span');
+        builder.innerText = option[i];
+        slate.appendChild(builder);
+        builder = document.createElement('resultBar');
+        var percentage = document.createElement('span');
+        if (pollOption-1 == i){
+          builder.style.backgroundColor = "#D2A11B";
+          percentage.style.color = "black";
+        }//if
+        var seed = 70+Math.random()*300;
+        builder.style.width = (seed+"px");
+        percentage.style.marginLeft = ".5em";
+        percentage.innerText = Math.round(seed)+" votes";
+        builder.appendChild(percentage);
+        slate.appendChild(builder);
+        builder = document.createElement('hr');
+        slate.appendChild(builder);
+      }//for
+    }, 500);//setTimeout
+  }//else
+}//function
 
+/*function voteProcess(){
+
+}//function*/
 function contactForm(){
   var eMail = document.getElementById('email').value;
   if (eMail.match(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {

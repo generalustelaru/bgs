@@ -5,10 +5,15 @@ main{
   margin-left: 180px;
   overflow:auto; //NEW!
 }
-aside{
-  width: 490px;
-  margin-left: 0px;
-}
+
 .featurette{
   margin-left: 20px;
 }
+#subscription{
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  margin-left: 20px;
+  height: 300px;
+  padding-top: 50px;
+}
+

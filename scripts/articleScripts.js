@@ -1,4 +1,4 @@
-window.onscroll = function() {popOut()};
+window.onscroll = function() {popOut()}; //NEW
 function popOut(){
   if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) { // NEW
     document.getElementById("toTop").style.transform = 'rotate(50deg)';
