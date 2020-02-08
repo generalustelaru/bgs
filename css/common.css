@@ -245,6 +245,12 @@ p{
   text-overflow: clip;
   font-size: 1.3em;
 }
+hr{
+  border: 0;
+  height: 2px;
+  color: #900000;
+  background-color: #900000;
+}
 .garamond{
   font-family: 'EB Garamond', serif;
 }

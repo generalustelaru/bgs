@@ -60,7 +60,36 @@ aside{
 .article .date{
   margin-left: 40px;
 }
-
+#socialBar{
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 5px 40px;
+}
+/*#socialBar span{
+  display: inline-block;
+  float: left;
+  line-height: 1.6em;
+}*/
+.socialButton{
+  height: 40px;
+  width: 40px;
+  background-color: #765D20;
+  float: left;
+  margin-left: 5px;
+  transition-property: all;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+  opacity: .5;
+}
+.socialButton:hover{
+  //transform: rotate(45deg);
+  cursor: pointer;
+  opacity: 1;
+}
+.socialButton, .socialButton img{
+  border-radius: 6px;
+}
 .articleImage{
   box-sizing: border-box;
   width: 95%;

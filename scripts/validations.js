@@ -78,7 +78,7 @@ function vote(){
           builder.style.backgroundColor = "#D2A11B";
           percentage.style.color = "black";
         }//if
-        var seed = 70+Math.random()*300;
+        var seed = 73+Math.random()*300;
         builder.style.width = (seed+"px");
         percentage.style.marginLeft = ".5em";
         percentage.innerText = Math.round(seed)+" votes";

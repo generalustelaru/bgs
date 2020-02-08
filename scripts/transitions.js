@@ -11,8 +11,8 @@ function blurbDown(n){
 
 function fake(){
   var fakeNews = document.getElementById('fake');
-  fakeNews.innerText = "fake news";
-  fakeNews.style.backgroundColor = "#900000";
+  fakeNews.innerText = "fake";
+  //fakeNews.style.backgroundColor = "#900000";
   fakeNews.style.color = "white";
 }
 function deFake(){
