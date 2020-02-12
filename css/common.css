@@ -168,6 +168,20 @@ button:active {
     transform: scale(0.99);
 }
 
+.ad{
+  position: relative;
+  box-sizing: border-box;
+  width: 490px;
+  height: 450;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(../ads/geld-lager.png);
+}
 
 .featurette{
   position: relative;

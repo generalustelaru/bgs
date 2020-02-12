@@ -76,14 +76,13 @@ aside{
   width: 40px;
   background-color: #765D20;
   float: left;
-  margin-left: 5px;
+  margin-right: 5px;
   transition-property: all;
   transition-duration: .2s;
   transition-timing-function: ease-out;
   opacity: .5;
 }
 .socialButton:hover{
-  //transform: rotate(45deg);
   cursor: pointer;
   opacity: 1;
 }
