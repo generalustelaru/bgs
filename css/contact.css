@@ -1,29 +1,21 @@
+spine{
+  width: 800px;
+}
 main{
-  //background-color: olivedrab;
-  opacity: 1;
-  width: 60%;
-  height: auto;
-  margin-left: 20%;
-  margin-right: 20%;
-  overflow:auto; //NEW!
-  position: relative;
-  //top: 1000px;
+  width: 800px;
 }
 .contactForm{
-  box-sizing: content-box;
+  box-sizing: border-box;
   background-color: white;
-  width: 70%;
-  height: 530px;
-  margin-left: 15%;
-  position: relative;
-  top: 30px;
-  padding-left: 30px;
-  //padding-bottom: 50px;
-  padding: 25px 30px 50px;
+  width: 800px;
+  height: 590px;
+  //padding-left: 30px;
+  padding: 25px 30px;
 }
 .contactForm *{
-  //float:left;
-  margin: 5px 20px;
+  //display: block;
+  clear: both;
+  margin: 5px 0px;
 
 }
 .contactForm input{
@@ -32,7 +24,7 @@ main{
 }
 .contactForm textarea{
   font-size: 1em;
-  margin-top: 20px;
+  //margin-top: 20px;
   padding: 5px;
   resize: none;
 }

@@ -1,8 +1,10 @@
-
+spine{
+  width: 1470px;
+}
 main{
   width: 950px;
   height:auto;
-  margin-left: 10%;
+  //margin-left: 10%;
 }
 
 #toTop{

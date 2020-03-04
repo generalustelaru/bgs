@@ -21,13 +21,15 @@
   <body style="font-family: 'garamond'">
     <a href="index.html">
       <header style="font-family: 'calistoga'"><!-- Header -->
-        <img class="logo" src="resource/antlered-meeple-juice.png" alt="BGS Logo">
-        <h1>big game spirits</h1>
+        <neck>
+          <img class="logo" src="resource/antlered-meeple-juice.png" alt="BGS Logo">
+          <h1>big game spirits</h1>
 
-          <div class="headerQuote">
-            "Play is best preceded by a decently-sized shot of JaegerMei&szligter." - said No One Ever, but it doesn't sound at all bad.
+            <div class="headerQuote">
+              "Play is best preceded by a decently-sized shot of JaegerMei&szligter." - said No One Ever, but it doesn't sound at all bad.
+            </div>
           </div>
-        </div>
+        </neck>
       </header>
     </a>
     <div class="menu"><!-- Navigation Menu -->
@@ -40,7 +42,7 @@
             <img src="resource/bottled-gaming-logo-detail-white.png" alt="Home">
           </div>
         </a>
-        <a href="news.html"><!-- News -->
+        <a href="news.html"><!-- news -->
           <div class="button" id="fake" onmouseover="fake()" onmouseout="deFake()">
             news
           </div>
@@ -62,30 +64,35 @@
         </a>
       </nav>
     </div>
-    <main>
-      <div id="contactForm" class="contactForm object">
-        <form class="" action="validations.js" method="post">
-          <h2>
-            Hello there,
-          </h2>
-          <p>
-            We hope you're enjoying our content so far. If you have any inquiries or if you want to join us as a contributor, please leave us a message. We'll get back to you in a jippy!
-          </p>
-          <br>
-          <input type="text" id="email" name="" value="" placeholder="Your e-mail address" onfocus="emailRetry()"><span id="emailError"></span>
-          <textarea id="messageBody" name="name" rows="10" cols="69" placeholder="&nbsp;Your message."></textarea>
-          <p>I would also like to be bothered by e-mail for:</p>
-          <input id="news" type="checkbox"> Flash News <br>
-          <input id="digest" type="checkbox"> Weekly Digest <br>
-          <button type="button" name="button" onclick="contactForm()">Send</button>
+    <spine>
+      <main>
+        <div id="contactForm" class="contactForm object">
+          <form class="" action="validations.js" method="post">
+            <h2>
+              Hello there,
+            </h2>
+            <p>
+              We hope you're enjoying our content so far. If you have any inquiries or if you want to join us as a contributor, please leave us a message. We'll get back to you in a jippy!
+            </p>
+            <br>
+            <input type="text" id="email" name="" value="" placeholder="Your e-mail address" onfocus="emailRetry()"><span id="emailError"></span>
+            <textarea id="messageBody" name="name" rows="10" cols="69" placeholder="&nbsp;Your message."></textarea>
+            <p>I would also like to be bothered by e-mail for:</p>
+            <input id="news" type="checkbox"> Flash News <br>
+            <input id="digest" type="checkbox"> Weekly Digest <br>
+            <button type="button" name="button" onclick="contactForm()">Send</button>
 
-        </form>
-      </div>
-    </main>
+          </form>
+        </div>
+      </main>
+    </spine>
     <footer>
       Design and Content by CodePup13 &nbsp|&nbsp adrianpope@protonmail.com &nbsp|&nbsp &copy All Rights Reserved
     </footer>
     <script src="scripts/validations.js">
+
+    </script>
+    <script src="scripts/transitions.js">
 
     </script>
   </body>

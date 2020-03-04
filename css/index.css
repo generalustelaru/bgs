@@ -1,13 +1,17 @@
+spine{
+  width: 1520px;
+}
 main{
   width: 1026px;
   margin:auto;
   height:auto;
-  margin-left: 180px;
-  overflow:auto; //NEW!
+  //margin-left: 180px;
+  overflow:auto; //NEW
 }
 aside{
   width: 490px;
   margin-left: 0px;
+  opacity: 1;
 }
 @keyframes flip {
   0%  {transform: rotateX(0deg)}

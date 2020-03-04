@@ -1,6 +1,11 @@
+spine{
+   width: 1000px;
+}
 main{
+ //display: block;
  width: 1000px;
-  margin-left: 22%;
+ //margin-left: auto;
+ //margin-right: auto;
 }
 .object{
   //animation-play-state: running;
