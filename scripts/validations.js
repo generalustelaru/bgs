@@ -66,7 +66,7 @@ function vote(){
       for (var i = 0; i < optionRetrieve.length; i++) {
         var transfer = optionRetrieve[i];
         option[i] = transfer.innerText;
-      }//for
+      }//end-for
       slate.removeChild(slate.lastElementChild);
       for (var i = 0; i < option.length; i++) {
         var builder = document.createElement('span');
@@ -77,7 +77,7 @@ function vote(){
         if (pollOption-1 == i){
           builder.style.backgroundColor = "#D2A11B";
           percentage.style.color = "black";
-        }//if
+        }//end-if
         var seed = 73+Math.random()*300;
         builder.style.width = (seed+"px");
         percentage.style.marginLeft = ".5em";
@@ -86,10 +86,10 @@ function vote(){
         slate.appendChild(builder);
         builder = document.createElement('hr');
         slate.appendChild(builder);
-      }//for
+      }//end-for
     }, 500);//setTimeout
-  }//else
-}//function
+  }//end-else
+}//end-function
 
 /*function voteProcess(){
 
@@ -109,7 +109,6 @@ function contactForm(){
     setTimeout(redirect, 3000);
   } else {
     document.getElementById('emailError').innerHTML = "Oops! Something's wrong with your e-mail address :(";
-    //document.getElementById('email').style.border = "1px solid red";
   }
 }
 function redirect(){

@@ -1,7 +1,7 @@
 spine{
   width: 800px;
 }
-main{
+spine{
   width: 800px;
 }
 .contactForm{
@@ -11,6 +11,7 @@ main{
   height: 590px;
   //padding-left: 30px;
   padding: 25px 30px;
+  margin: 30px 0px;
 }
 .contactForm *{
   //display: block;
@@ -41,8 +42,16 @@ main{
   padding-left: 10px;
 }
 
-/* IDEA: input[type=email]{
-  box-sizing: border-box;
-  height: 10px;
-  font-family: monospace;
-} */
+/* Responsive adjustments - 1080p ~ 720p */
+@media (max-width: 1544px) {
+  spine{
+  width: 650px;
+  }
+  .contactForm{
+    width: 650px;
+    height: 520px;
+  }
+}
+/*
+
+*/

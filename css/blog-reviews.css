@@ -21,4 +21,17 @@ main{
   height: 300px;
   padding-top: 50px;
 }
-
+/* Responsive adjustments - 1080p ~ 720p */
+@media (max-width: 1544px) {
+  spine{
+    width: 1210px;
+  }
+  #subscription{
+    padding-top: 10px;
+    width: 390px;
+    height: 239px;
+  }
+  #email{
+  width: 265px;
+}
+}

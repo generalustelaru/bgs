@@ -63,8 +63,9 @@ aside{
   height: 100%;
 }
 .poll button{
-  width: 150px;
-  margin: 10px 155px;
+  display: block;
+  width: 130px;
+  margin: 10px auto;
 }
 #voteError{
   display: inline-block;
@@ -115,4 +116,27 @@ p{
   margin-right: 15px;
   text-overflow: clip;
   font-size: 1.3em;
+}
+
+/* Responsive adjustments  - 1080p ~ 720p */
+@media (max-width: 1544px) {
+  spine{
+    width: 1262px;
+  }
+  main{
+    width: 812px;
+  }
+  .featured{
+    width: 800px;
+    height: 350px;
+    margin-top: 30px;
+  }
+  aside{
+    width: 450px;
+  }
+
+  .poll{
+    width: 450px;
+    height: 400px;
+  }
 }

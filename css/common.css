@@ -43,9 +43,9 @@ header img{
   animation-duration: .5s;
   animation-timing-function: ease;
   animation-iteration-count: 1;
-  animation-delay: 1s;
-  /*! margin-left: 22.5%; */
+  animation-delay: 1s
 }
+
 @keyframes logo {
   0%{transform: rotate(25deg);}
   25%{transform: rotate(0deg)}
@@ -209,7 +209,6 @@ button:active {
   text-align:center;
 }
 #email{
-  /*! margin-left: 20px; */
   height: 2em;
   width: 310px;
 }
@@ -295,6 +294,9 @@ fauxlink{
   box-shadow: 12px 12px 5px #2C1000;
   //filter: blur(0);
 }
+.object:hover{
+  box-shadow: 12px 12px 5px #2C1000;
+}
 .object:hover fauxlink{
   color: #D2A11B;
 }
@@ -355,17 +357,40 @@ footer{
   top: 30px;
 }
 
-/* Responsive adjustments*/
-@media (max-width: 1720px) {
-  .headerBox{
-    box-sizing: border-box;
-    width: 800px;
-    height: 50px;
-    margin: 0px;
-    //background-color: black;
-    float:left;
-    padding: 0px 0px 0px 0px;
+/* Responsive adjustments - 1080p ~ 720p */
+@media (max-width: 1544px) {
+  body{
+    font-size: 14px;
+  }
+  header{
+    height: 180px;
+  }
+  header img{
+    height: 160px;
+  }
+  neck{
+    width: 888px;
+  }
+  .menu{
+    height: 45px;
+  }
+  nav{
+    width: 900px;
+  }
+  .button{
+    height: 48px;
+    width: 180px;
+  }
+  .featurette{
+    width: 390px;
+    height: 239px;
+  }
+  #subscription{
+    margin-top: 30px;
+    width: 450px;
+    height: 170px;
   }
 }
+
 
 /* Responsiveness end. */
